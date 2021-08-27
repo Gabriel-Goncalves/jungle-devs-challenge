@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 .header {
   color: #FFFFFF;
@@ -31,4 +31,37 @@
   list-style-type: none;
   margin-left: 8%;
   white-space: nowrap;
+}
+
+.header-right-content {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header-right-content ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.header-right-content li {
+  align-self: center;
+  margin-left: 10%;
+  white-space: nowrap;
+}
+
+.header-right-content button {
+  background-color: #00A870;
+  border: none;
+  border-radius: 4px;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  padding: 15px;
+  width: 234px;
 }
