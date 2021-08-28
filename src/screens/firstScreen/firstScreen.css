@@ -1,0 +1,9 @@
+.first-screen {
+  background-image: url('../../images/backGroundFirsScreen.svg'),
+    linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%);
+  min-height: 90vh;
+  mix-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  min-height: 616px;
+}

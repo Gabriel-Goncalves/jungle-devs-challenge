@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 .header {
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   flex-direction: row;
   font-family: 'Inter', sans-serif;
+  font-size: 14px;
   justify-content: space-between;
   line-height: 20px;
   padding: 0 20px;
-  background-color: #983da7;
 }
 
 .header-left-content {
@@ -56,12 +56,11 @@
 }
 
 .header-right-content button {
-  background-color: #00A870;
+  background-color: #00a870;
   border: none;
   border-radius: 4px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Inter', sans-serif;
-  font-size: 14px;
   padding: 15px;
   width: 234px;
 }
