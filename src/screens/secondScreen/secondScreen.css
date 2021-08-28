@@ -1,0 +1,56 @@
+.second-screen {
+  background-color: #f2f2f2;
+  font-family: 'Inter', sans-serif;
+  padding-bottom: 35px;
+}
+
+.article-second-screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.left-content-second-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 220px;
+}
+
+.left-content-second-screen h3 {
+  color: #3d3d3d;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.left-content-second-screen p {
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: normal;
+}
+
+.link-hapu {
+  color: #5e20a4;
+  text-decoration: underline;
+}
+
+.right-content-second-screen {
+  margin-left: 56px;;
+}
+
+.right-content-second-screen img{
+  width: 584px;
+  height: 392px;
+  margin-right: 100px;
+}
+
+hr {
+  width: 784px;
+  height: 0px;
+  border: 2px solid #DFDFDF;
+  text-align: center;
+}
