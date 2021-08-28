@@ -1,9 +1,52 @@
 .first-screen {
-  background-image: url('../../images/backGroundFirsScreen.svg'),
+  background-image: url('../../images/backGroundFirsScreen.png'),
     linear-gradient(314.72deg, #c86dd7 -1.5%, #7e49c3 39.43%, #5912ac 86.02%);
   min-height: 90vh;
   mix-blend-mode: overlay;
   background-position: center;
   background-size: cover;
   min-height: 616px;
+}
+
+.article-first-screen {
+  color: #ffffff;
+  display: flex;
+  font-family: 'Inter', sans-serif;
+  margin: 100px 228px 0 128px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-content h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.article-title {
+  margin-bottom: 25px;
+}
+
+.article-description {
+  margin-bottom: 25px;
+}
+
+.play-hapu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.play-hapu a {
+  margin-left: 15px;
+  color: #ffffff;
+}
+
+.play-hapu img {
+  cursor: pointer;
 }

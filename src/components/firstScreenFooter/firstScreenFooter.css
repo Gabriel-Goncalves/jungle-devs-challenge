@@ -1,0 +1,14 @@
+.first-screen-footer {
+  display: flex;
+  height: 112px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.first-screen-footer img {
+  width: 56px;
+  height: 56px;
+  margin-right: 30px;
+}

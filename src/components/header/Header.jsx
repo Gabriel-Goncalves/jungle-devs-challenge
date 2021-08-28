@@ -18,7 +18,7 @@ const Header = () => {
           <li>
             <button type="button">Become a Nanny Share Host</button>
           </li>
-          <li>Sign In</li>
+          <li className="sign-in">Sign In</li>
         </ul>
       </section>
     </header>
