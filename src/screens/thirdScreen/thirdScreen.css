@@ -3,6 +3,7 @@
   background-color: #F2F2F2;
   font-family: 'Inter', sans-serif;
   color: #3d3d3d;
+  padding-bottom: 15px;
 }
 
 .third-screen {
@@ -49,7 +50,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1020px) {
   .article-third-screen {
     padding-top: 64px;
   }
@@ -78,5 +79,13 @@
   .third-screen-right-content h2{
     width: 226px;
     font-size: 22px;
+  }
+
+  .third-screen-right-content p {
+    width: 328px;
+  }
+
+  .third-screen-right-content a {
+    width: 328px;
   }
 }
