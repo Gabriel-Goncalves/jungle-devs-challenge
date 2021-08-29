@@ -6,7 +6,7 @@ const FormSecondScreen = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [shouldShowWarning, setShouldShowWarning] = useState(false);
-
+  const [showMessageNewsletterRegister, setShowMessageNewsletterRegister] = useState(false);
   const handleChangeName = ({ target: { value } }) => {
     setName(value);
   };
@@ -35,7 +35,12 @@ const FormSecondScreen = () => {
             email,
           },
         });
-        console.log('response', response);
+        if(response.status === 200) {
+          setShowMessageNewsletterRegister(true);
+          setTimeout(() => {
+            setShowMessageNewsletterRegister(false);
+          }, 4500);
+        };
       } catch (error) {
         console.log(error);
       }
@@ -69,6 +74,7 @@ const FormSecondScreen = () => {
         </form>
       </section>
       {shouldShowWarning ? <p className="warning-invalid-email">Invalid email</p> : ''}
+      {showMessageNewsletterRegister ? <p className="email-registered">Email Registered Successfully </p> : ''}
     </article>
   );
 };
