@@ -30,13 +30,13 @@ const Footer = () => {
             <h5>Terms & Privacy</h5>
         </nav>
         <section className="footer-social-medias">
-          <a href="https://www.facebook.com/">
+          <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
             <img src={footerFacebookLogo} alt="Facebook" />
           </a>
-          <a href="https://twitter.com/home">
+          <a href="https://twitter.com/home" target="_blank" rel="noreferrer">
             <img src={footerTwitterLogo} alt="Twitter" />
           </a>
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             <img src={footerInstagramLogo} alt="Instagram" />
           </a>
         </section>
