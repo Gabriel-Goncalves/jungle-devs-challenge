@@ -1,4 +1,4 @@
-import ADD_NANNY from '../actions';
+import { ADD_NANNY } from '../actions';
 
 const INITIAL_STATE = [
   {
