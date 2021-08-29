@@ -106,6 +106,16 @@ hr {
   height: 48px;
 }
 
+.warning-invalid-email {
+  font-size: 18px;
+  font-style: italic;
+  width: 100%;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 25px;
+  color: #ff0000;
+}
+
 @media screen and (max-width: 1070px) {
   .article-second-screen {
     flex-direction: column-reverse;
