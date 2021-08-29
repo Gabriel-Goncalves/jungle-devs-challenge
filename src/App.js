@@ -4,6 +4,7 @@ import SecondScreen from './screens/secondScreen/SecondScreen';
 import ThirdScreen from './screens/thirdScreen/ThirdScreen';
 import FourthScreen from './screens/fourthScreen/FourthScreen';
 import FifthScreen from './screens/fifthScreen/FifthScreen';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ThirdScreen />
       <FourthScreen />
       <FifthScreen />
+      <Footer />
     </div>
   );
 }
