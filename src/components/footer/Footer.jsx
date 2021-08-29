@@ -24,12 +24,10 @@ const Footer = () => {
       <section className="footer-middle-content">
         <img src={footerHapuLogo} alt="hapu icon" />
         <nav>
-          <ul>
-            <li>Share Your Nanny</li>
-            <li>Our Story</li>
-            <li>Blog</li>
-            <li>Terms & Privacy</li>
-          </ul>
+            <h5>Share Your Nanny</h5>
+            <h5>Our Story</h5>
+            <h5>Blog</h5>
+            <h5>Terms & Privacy</h5>
         </nav>
         <section className="footer-social-medias">
           <a href="https://www.facebook.com/">
@@ -44,6 +42,7 @@ const Footer = () => {
         </section>
       </section>
       <section className="footer-copyright">
+        <hr className="hr-mobile-version"/>
         <p>Copyright © 2017 Hapu PTY Limited All rights reserved</p>
       </section>
     </footer>
