@@ -9,6 +9,7 @@ const SecondScreen = () => {
       <ArticleSecondScreen />
       <hr />
       <FormSecondScreen />
+      <hr />
     </div>
   );
 };

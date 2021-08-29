@@ -9,8 +9,8 @@ const FormSecondScreen = () => {
         becomes available in your area!
       </p>
       <form action="submit" className="form-to-newsletter">
-        <input type="text" placeholder="Your name" />
-        <input type="text" placeholder="Your email" />
+        <input type="text" placeholder="Your name" id="input-name"/>
+        <input type="text" placeholder="Your email" id="input-email"/>
         <button type="button">Send</button>
       </form>
     </section>
