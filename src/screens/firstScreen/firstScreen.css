@@ -25,6 +25,8 @@
 
 .left-content h1 {
   font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -33,6 +35,11 @@
 }
 
 .article-description {
+  width: 584px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
   margin-bottom: 25px;
 }
 
@@ -61,24 +68,37 @@
 
   .article-first-screen {
     flex-direction: column;
-    margin: 80px 16px 0 16px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 92px 0 0 0 ;
   }
 
-  .article-first-screen h1 {
+  .left-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-content h1 {
     font-size: 28px;
     line-height: 32px;
+    margin: 0;
+    padding: 0;
+    width: 282px;
     text-align: center;
   }
 
-  .article-first-screen p {
+  .left-content p {
     font-size: 16px;
     line-height: 28px;
     text-align: center;
+    width: 328px;
+  } 
+
+  .article-description {
+    width: 328px;
+    text-align: center;
   }
 
-  .break-line {
-    display: none;
-  }
 
   .exemple-first-screen {
     display: none;
