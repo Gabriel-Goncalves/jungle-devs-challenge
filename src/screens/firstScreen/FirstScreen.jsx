@@ -17,7 +17,7 @@ const FirstScreen = () => {
 
   const ABTest = aOrB => {
     if (aOrB === 'a') {
-      setTitle('Easily create or joing a local nanny share with Hapu');
+      setTitle('Easily create or join a local nanny share with Hapu');
       setDescription(
         'Hapu is Airbnb for nanny share. Share your home, nanny and costs and create new flexible, affordable solutions in childcare.',
       );
@@ -32,7 +32,7 @@ const FirstScreen = () => {
   useEffect(() => {
     const today = new Date();
     const actualHour = today.getHours();
-    if (actualHour % 2 !== 0) {
+    if (actualHour % 2 === 0) {
       ABTest('a');
     } else {
       ABTest('b');

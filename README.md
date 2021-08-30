@@ -19,12 +19,9 @@ ___
 
 ## How to run the application in development mode without Docker
 
-To run this application you need to follow this steps:
+Considering that you have Node.js installed, to run this application you need to follow this steps:
 
 - Clone this repositorie with 
-```shell
-git clone
-```
 
 - In the project root run this comand to install all dependencies:
 ```shell
@@ -37,6 +34,7 @@ npm install
 npm start
 ```
 
+- Wait the execution and you already can access the application in the link and port specified.
 ___
 
 ## How to run the application in development mode with Docker
@@ -60,6 +58,7 @@ ___
 After clone this repository in the root folder run the comand:
 
 ```shell
-npm run build
+npm run test
 ```
 
+___
