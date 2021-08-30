@@ -4,7 +4,7 @@
 
 This application was deployed using the [heroku](https://www.heroku.com/) platform
 
-[Click here](https://gabriel-jungle-devs-challenge.herokuapp.com/) to access the aplication
+<a href="https://gabriel-jungle-devs-challenge.herokuapp.com/" target="_blank">Click here</a> o access the aplication deployed
 
 ## Description
 
