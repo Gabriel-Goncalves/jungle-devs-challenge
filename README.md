@@ -21,7 +21,7 @@ ___
 
 Considering that you have Node.js installed, to run this application you need to follow this steps:
 
-- Clone this repositorie with 
+- Clone this repository 
 
 - In the project root run this comand to install all dependencies:
 ```shell
@@ -60,5 +60,4 @@ After clone this repository in the root folder run the comand:
 ```shell
 npm run test
 ```
-
 ___
