@@ -52,10 +52,11 @@ ___
 docker pull gabriel2898/challenge-jungle-devs
 ```
 
-- After pull the image run the command, make sure that your port 3000 is available or change both 3000 for the port you prefer:
+- After pull the image run the command: 
 ```shell
 docker run -d -p 3000:3000 gabriel2898/challenge-jungle-devs
 ```
+Make sure that your port 3000 is available or change both 3000 for the port you prefer
 ___
 
 ## How to create production builds
