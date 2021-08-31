@@ -45,7 +45,7 @@ npm start
 
 ---
 
-## How to run the application in development mode with Docker
+## How to run the application mode with Docker
 
 - Considering that you have docker installed and running, to run this application with docker you need to follow these steps:
 
@@ -95,4 +95,4 @@ Visit my [portfolio](https://gabriel-goncalves.github.io/) to check my others pr
 
   - [linkedin](https://www.linkedin.com/in/gabriel-goncalves-medeiros/)
 
-  - email: gabriel_98gm@hotmail.com
+  - gabriel_98gm@hotmail.com
