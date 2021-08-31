@@ -6,7 +6,9 @@ const FormSecondScreen = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [shouldShowWarning, setShouldShowWarning] = useState(false);
-  const [showMessageNewsletterRegister, setShowMessageNewsletterRegister] = useState(false);
+  const [showMessageNewsletterRegister, setShowMessageNewsletterRegister] =
+    useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
   const handleChangeName = ({ target: { value } }) => {
     setName(value);
   };
@@ -18,11 +20,11 @@ const FormSecondScreen = () => {
   const validateEmail = () => {
     const re = /.+@[A-z]+[.]com/;
     const isValidEmail = re.test(email);
-    return isValidEmail
+    return isValidEmail;
   };
 
   const handleClickSubmit = async () => {
-    if(!validateEmail()) {
+    if (!validateEmail()) {
       setShouldShowWarning(true);
       setTimeout(() => setShouldShowWarning(false), 4500);
     } else {
@@ -35,12 +37,17 @@ const FormSecondScreen = () => {
             email,
           },
         });
-        if(response.status === 200) {
+        if (response.status === 200) {
           setShowMessageNewsletterRegister(true);
           setTimeout(() => {
             setShowMessageNewsletterRegister(false);
           }, 4500);
-        };
+        } else {
+          setErrorMessage(true);
+          setTimeout(() => {
+            setErrorMessage(false);
+          }, 4500);
+        }
       } catch (error) {
         console.log(error);
       }
@@ -73,8 +80,23 @@ const FormSecondScreen = () => {
           </button>
         </form>
       </section>
-      {shouldShowWarning ? <p className="warning-invalid-email">Invalid email</p> : ''}
-      {showMessageNewsletterRegister ? <p className="email-registered">Email Registered Successfully </p> : ''}
+      {shouldShowWarning ? (
+        <p className="warning-invalid-email">Invalid email</p>
+      ) : (
+        ''
+      )}
+      {showMessageNewsletterRegister ? (
+        <p className="email-registered">Email Registered Successfully </p>
+      ) : (
+        ''
+      )}
+      {errorMessage ? (
+        <p className="warning-invalid-email">
+          Something went wrong please try again later
+        </p>
+      ) : (
+        ''
+      )}
     </article>
   );
 };
